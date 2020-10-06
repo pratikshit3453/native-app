@@ -21,44 +21,67 @@ export default class Stats extends Component {
           width: "90%",
           padding: 10,
           marginLeft: 20,
+          marginBottom: 30,
         }}
       >
-        <CardItem style={{ backgroundColor: "#000033" }}>
+        <CardItem
+          style={{
+            backgroundColor: "#000033",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
           <View
-            style={{
-              marginRight: 20,
-              marginLeft: 15,
-              color: "white",
-              borderRightWidth: 2,
-              borderRightColor: "grey",
-              borderRightStyle: "solid",
-            }}
+            style={
+              {
+                // color: "white",
+                // borderRightWidth: 2,
+                // borderRightColor: "grey",
+                // borderRightStyle: "solid",
+              }
+            }
           >
             <Text style={{ color: "white", fontSize: 30, fontWeight: "700" }}>
               200
             </Text>
-            <Text style={{ color: "grey", paddingRight: 40 }}>Total</Text>
+            <Text style={{ color: "grey" }}>Total</Text>
           </View>
-          <View
+          <Text
             style={{
-              marginRight: 20,
-              marginLeft: 25,
               color: "white",
               borderRightWidth: 2,
               borderRightColor: "grey",
               borderRightStyle: "solid",
             }}
+          ></Text>
+          <View
+            style={
+              {
+                // color: "white",
+                // borderRightWidth: 2,
+                // borderRightColor: "grey",
+                // borderRightStyle: "solid",
+              }
+            }
           >
             <Text style={{ color: "white", fontSize: 30, fontWeight: "700" }}>
               160
             </Text>
-            <Text style={{ color: "grey", paddingRight: 40 }}>Attended</Text>
+            <Text style={{ color: "grey" }}>Attended</Text>
           </View>
-          <View style={{ marginRight: 20, marginLeft: 25 }}>
+          <Text
+            style={{
+              color: "white",
+              borderRightWidth: 2,
+              borderRightColor: "grey",
+              borderRightStyle: "solid",
+            }}
+          ></Text>
+          <View style={{}}>
             <Text style={{ color: "white", fontSize: 30, fontWeight: "700" }}>
               200
             </Text>
-            <Text style={{ color: "grey", paddingRight: 40 }}>Skipped</Text>
+            <Text style={{ color: "grey" }}>Skipped</Text>
           </View>
         </CardItem>
       </Card>

@@ -8,7 +8,7 @@ export default class CardExample extends Component {
       <View
         style={{
           flex: 1,
-          backgroundColor: "grey",
+          backgroundColor: "#333751",
           borderRadius: 50,
           width: "90%",
           padding: 20,
@@ -16,7 +16,7 @@ export default class CardExample extends Component {
         }}
       >
         <VictoryPie
-          padding={{ top: 30, right: 250, bottom: 30, left: 20 }}
+          padding={{ top: 30, right: 180, bottom: 30, left: 20 }}
           innerRadius={100}
           data={[
             { x: "Skipped", y: 20 },

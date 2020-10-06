@@ -1,4 +1,3 @@
-import { Content } from "native-base";
 import React, { Component } from "react";
 import { Animated, View, Text, Button } from "react-native";
 

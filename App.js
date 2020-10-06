@@ -8,6 +8,7 @@ import { VictoryPie } from "victory-native";
 import Date from "./src/date";
 import Chart from "./src/chart";
 import Stats from "./src/stats";
+import Subjects from "./src/subjects";
 
 import Attendance from "./src/attendance";
 
@@ -135,6 +136,7 @@ function MainScreen() {
       <Attendance />
       <Chart />
       <Stats />
+      <Subjects />
     </ScrollView>
   );
 }
